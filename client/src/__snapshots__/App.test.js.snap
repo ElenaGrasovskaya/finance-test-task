@@ -8,9 +8,9 @@ exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
     >
       INCODE Finance Controll
     </h1>
-    <div
-      class="sc-jSMfEi edoOxf"
-    />
+    <h2>
+      Loading...
+    </h2>
     <form
       class="sc-jqUVSM jcNDAj"
     >
@@ -48,6 +48,216 @@ exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
         Apply
       </button>
     </form>
+    <div
+      class="k-chart k-widget"
+      style="height: 2000px; position: relative;"
+    >
+      <div
+        class="k-chart-surface"
+        style="position: relative;"
+      >
+        <svg
+          style="width: 100%; height: 100%; overflow: hidden;"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs />
+          <g>
+            <path
+              d="M0 0 L 600 0 600 400 0 400Z"
+              fill="none"
+              stroke="none"
+            />
+            <path
+              d="M24 5 L 594 5 594 386 24 386Z"
+              fill="#fff"
+              fill-opacity="0"
+              stroke="none"
+            />
+            <g>
+              <g />
+              <g>
+                <path
+                  d="M24.5 310.5 L 594.5 310.5"
+                  fill="none"
+                  stroke="none"
+                />
+                <path
+                  d="M24.5 234.5 L 594.5 234.5"
+                  fill="none"
+                  stroke="none"
+                />
+                <path
+                  d="M24.5 157.5 L 594.5 157.5"
+                  fill="none"
+                  stroke="none"
+                />
+                <path
+                  d="M24.5 81.5 L 594.5 81.5"
+                  fill="none"
+                  stroke="none"
+                />
+                <path
+                  d="M24.5 5.5 L 594.5 5.5"
+                  fill="none"
+                  stroke="none"
+                />
+              </g>
+              <g>
+                <g>
+                  <g>
+                    <path
+                      d="M24.5 386.5 L 594.5 386.5"
+                      fill="none"
+                      stroke="none"
+                    />
+                    <path
+                      d="M24.5 386.5 L 24.5 390.5"
+                      fill="none"
+                      stroke="none"
+                    />
+                  </g>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M24.5 5.5 L 24.5 386.5"
+                    fill="none"
+                    stroke="black"
+                    stroke-width="1"
+                  />
+                  <path
+                    d="M20.5 386.5 L 24.5 386.5"
+                    fill="none"
+                    stroke="black"
+                    stroke-width="1"
+                  />
+                  <path
+                    d="M20.5 310.5 L 24.5 310.5"
+                    fill="none"
+                    stroke="black"
+                    stroke-width="1"
+                  />
+                  <path
+                    d="M20.5 234.5 L 24.5 234.5"
+                    fill="none"
+                    stroke="black"
+                    stroke-width="1"
+                  />
+                  <path
+                    d="M20.5 157.5 L 24.5 157.5"
+                    fill="none"
+                    stroke="black"
+                    stroke-width="1"
+                  />
+                  <path
+                    d="M20.5 81.5 L 24.5 81.5"
+                    fill="none"
+                    stroke="black"
+                    stroke-width="1"
+                  />
+                  <path
+                    d="M20.5 5.5 L 24.5 5.5"
+                    fill="none"
+                    stroke="black"
+                    stroke-width="1"
+                  />
+                </g>
+              </g>
+              <g>
+                <text
+                  fill="black"
+                  fill-opacity="1"
+                  stroke="none"
+                  style="font:  ;white-space:pre;"
+                  x="16"
+                  y="387"
+                >
+                  0
+                </text>
+              </g>
+              <g>
+                <text
+                  fill="black"
+                  fill-opacity="1"
+                  stroke="none"
+                  style="font:  ;white-space:pre;"
+                  x="16"
+                  y="310.8"
+                >
+                  100
+                </text>
+              </g>
+              <g>
+                <text
+                  fill="black"
+                  fill-opacity="1"
+                  stroke="none"
+                  style="font:  ;white-space:pre;"
+                  x="16"
+                  y="234.6"
+                >
+                  200
+                </text>
+              </g>
+              <g>
+                <text
+                  fill="black"
+                  fill-opacity="1"
+                  stroke="none"
+                  style="font:  ;white-space:pre;"
+                  x="16"
+                  y="158.4"
+                >
+                  300
+                </text>
+              </g>
+              <g>
+                <text
+                  fill="black"
+                  fill-opacity="1"
+                  stroke="none"
+                  style="font:  ;white-space:pre;"
+                  x="16"
+                  y="82.2"
+                >
+                  400
+                </text>
+              </g>
+              <g>
+                <text
+                  fill="black"
+                  fill-opacity="1"
+                  stroke="none"
+                  style="font:  ;white-space:pre;"
+                  x="16"
+                  y="6"
+                >
+                  500
+                </text>
+              </g>
+              <g
+                transform="matrix(0,-1,1,0,-191,206)"
+              >
+                <text
+                  fill="black"
+                  fill-opacity="1"
+                  stroke="none"
+                  style="font:  ;white-space:pre;"
+                  x="10"
+                  y="197"
+                >
+                  Ticker price
+                </text>
+              </g>
+            </g>
+            <g />
+          </g>
+        </svg>
+      </div>
+    </div>
   </div>
 </div>
 `;
@@ -96,6 +306,221 @@ exports[`<TickerDisplay/> renders and matches a snapshot 1`] = `
         0.79
         %
       </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TickerLineChart/> renders and matches a snapshot 1`] = `
+<div>
+  <div
+    class="k-chart k-widget"
+    style="height: 2000px; position: relative;"
+  >
+    <div
+      class="k-chart-surface"
+      style="position: relative;"
+    >
+      <svg
+        style="width: 100%; height: 100%; overflow: hidden;"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <defs />
+        <g>
+          <path
+            d="M0 0 L 600 0 600 400 0 400Z"
+            fill="none"
+            stroke="none"
+          />
+          <path
+            d="M24 5 L 594 5 594 386 24 386Z"
+            fill="#fff"
+            fill-opacity="0"
+            stroke="none"
+          />
+          <g>
+            <g />
+            <g>
+              <path
+                d="M24.5 310.5 L 594.5 310.5"
+                fill="none"
+                stroke="none"
+              />
+              <path
+                d="M24.5 234.5 L 594.5 234.5"
+                fill="none"
+                stroke="none"
+              />
+              <path
+                d="M24.5 157.5 L 594.5 157.5"
+                fill="none"
+                stroke="none"
+              />
+              <path
+                d="M24.5 81.5 L 594.5 81.5"
+                fill="none"
+                stroke="none"
+              />
+              <path
+                d="M24.5 5.5 L 594.5 5.5"
+                fill="none"
+                stroke="none"
+              />
+            </g>
+            <g>
+              <g>
+                <g>
+                  <path
+                    d="M24.5 386.5 L 594.5 386.5"
+                    fill="none"
+                    stroke="none"
+                  />
+                  <path
+                    d="M24.5 386.5 L 24.5 390.5"
+                    fill="none"
+                    stroke="none"
+                  />
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <path
+                  d="M24.5 5.5 L 24.5 386.5"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="1"
+                />
+                <path
+                  d="M20.5 386.5 L 24.5 386.5"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="1"
+                />
+                <path
+                  d="M20.5 310.5 L 24.5 310.5"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="1"
+                />
+                <path
+                  d="M20.5 234.5 L 24.5 234.5"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="1"
+                />
+                <path
+                  d="M20.5 157.5 L 24.5 157.5"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="1"
+                />
+                <path
+                  d="M20.5 81.5 L 24.5 81.5"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="1"
+                />
+                <path
+                  d="M20.5 5.5 L 24.5 5.5"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="1"
+                />
+              </g>
+            </g>
+            <g>
+              <text
+                fill="black"
+                fill-opacity="1"
+                stroke="none"
+                style="font:  ;white-space:pre;"
+                x="16"
+                y="387"
+              >
+                0
+              </text>
+            </g>
+            <g>
+              <text
+                fill="black"
+                fill-opacity="1"
+                stroke="none"
+                style="font:  ;white-space:pre;"
+                x="16"
+                y="310.8"
+              >
+                100
+              </text>
+            </g>
+            <g>
+              <text
+                fill="black"
+                fill-opacity="1"
+                stroke="none"
+                style="font:  ;white-space:pre;"
+                x="16"
+                y="234.6"
+              >
+                200
+              </text>
+            </g>
+            <g>
+              <text
+                fill="black"
+                fill-opacity="1"
+                stroke="none"
+                style="font:  ;white-space:pre;"
+                x="16"
+                y="158.4"
+              >
+                300
+              </text>
+            </g>
+            <g>
+              <text
+                fill="black"
+                fill-opacity="1"
+                stroke="none"
+                style="font:  ;white-space:pre;"
+                x="16"
+                y="82.2"
+              >
+                400
+              </text>
+            </g>
+            <g>
+              <text
+                fill="black"
+                fill-opacity="1"
+                stroke="none"
+                style="font:  ;white-space:pre;"
+                x="16"
+                y="6"
+              >
+                500
+              </text>
+            </g>
+            <g
+              transform="matrix(0,-1,1,0,-191,206)"
+            >
+              <text
+                fill="black"
+                fill-opacity="1"
+                stroke="none"
+                style="font:  ;white-space:pre;"
+                x="10"
+                y="197"
+              >
+                Ticker price
+              </text>
+            </g>
+          </g>
+          <g />
+        </g>
+      </svg>
     </div>
   </div>
 </div>

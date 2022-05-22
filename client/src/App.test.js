@@ -1,9 +1,10 @@
 import { render, screen } from '@testing-library/react';
-import TickerDisplay from './components/TickerDisplay'
-import HomeScreen from './screens/HomeScreen'
+import TickerDisplay from './components/TickerDisplay';
+import TickerLineChart from './components/TickerLineChart';
+import HomeScreen from './screens/HomeScreen';
 import { fakeTicker } from './testUtils/testUtils';
 import {Provider} from 'react-redux';
-import store from './store'
+import store from './store';
 const tickers = fakeTicker();
 
 describe('<TickerDisplay/>', () => {
@@ -33,6 +34,23 @@ describe('<HomeScreen/>', () => {
 
   it('renders and matches a snapshot', () => {
     const { container , debug } = render(<Provider store={store}><HomeScreen/></Provider>);
+    debug();
+    expect(container).toMatchSnapshot();
+
+});
+   
+});
+
+describe('<TickerLineChart/>', () => {
+  it('renders out the button for changing refresh interval', () => {
+      const { container , debug } = render(<Provider store={store}><TickerLineChart/></Provider>);
+      debug();
+      expect(screen.getByText("Ticker price")).toBeInTheDocument();
+      
+  });
+
+  it('renders and matches a snapshot', () => {
+    const { container , debug } = render(<Provider store={store}><TickerLineChart/></Provider>);
     debug();
     expect(container).toMatchSnapshot();
 
