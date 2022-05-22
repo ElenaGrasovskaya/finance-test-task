@@ -8,12 +8,9 @@ function TickerDisplay(ticker) {
   const display = ticker.ticker;
   return (
     <TickerContainer>
-      <StyledIcon mainColor ={(Number(display.change)>150)}>{(Number(display.change)>150)?<BsArrowUpSquareFill />:<BsArrowDownSquareFill/>}</StyledIcon>
+      <StyledIcon mainColor={(Number(display.change) > 150)}>{(Number(display.change) > 150) ? <BsArrowUpSquareFill /> : <BsArrowDownSquareFill />}</StyledIcon>
       <StyledBlock><TickerName>{display.ticker}</TickerName><div>{display.price}</div></StyledBlock>
       <StyledBlockLast><p>{display.change}</p><p>{display.change_percent}%</p></StyledBlockLast>
-      
-      
-
     </TickerContainer>
   )
 }
@@ -58,7 +55,7 @@ gap: 5px;
 
 const StyledIcon = styled.div`
 font-size: 40px;
-color: ${props => props.mainColor?"lightgreen":"red"};
+color: ${props => props.mainColor ? "lightgreen" : "red"};
 display: flex;
 flex-direction: column;
 justify-content:center;

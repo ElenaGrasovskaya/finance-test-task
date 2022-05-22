@@ -22,6 +22,7 @@ export const listTickers = () => async (dispatch) => {
             })
 
         });
+        
 
     } catch (error) {
         dispatch(

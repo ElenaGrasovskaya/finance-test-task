@@ -11,7 +11,7 @@ export const tickerListReducer = ( state = { tickers: [], allTickers: [] }, acti
             return { loading: true, tickers: [], allTickers: [] }
 
         case TICKER_LIST_SUCCESS:
-            return { loading: false, tickers: action.payload, allTickers:[...state.allTickers, action.payload]  }
+            return { loading: false, tickers: action.payload, allTickers:[action.payload, ...state.allTickers]  }
 
         case TICKER_LIST_FAIL:
                 return { loading: false, error: action.payload }

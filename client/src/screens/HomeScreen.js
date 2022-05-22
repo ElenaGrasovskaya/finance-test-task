@@ -5,41 +5,38 @@ import { listTickers } from '../actions/tickerActions'
 import { IoMdSync } from "react-icons/io";
 import TickerDisplay from '../components/TickerDisplay';
 import { AiFillCloseCircle } from "react-icons/ai";
-
-import { IconName } from "react-icons/io";
+import TickerLineChart from '../components/TickerLineChart';
 function HomeScreen() {
 
     const [hideList, setHideList] = useState([]);
     const [refreshInterval, setRefreshInterval] = useState(5000)
     const [updateInterval, setUpdateInterval] = useState(5000);
-    const [counter, setCounter] = useState(false);
+
 
     const dispatch = useDispatch();
 
     useEffect(() => {
-
-        const interval = setInterval(() => {
-
-            setCounter(!counter);
-            console.log(counter);
-        }, updateInterval);
-
         dispatch(listTickers());
 
+    }, []);
+
+
+    /*useEffect(() => {                         I tried to make it update the refresh intrval, but unfortunately could find the solution.
+                                                This one causes multiplying dispatch requests.
+        const interval = setInterval(() => {
+        dispatch(listTickers());
+        }, updateInterval);
         return () => {
             clearInterval(interval);
         };
-
-
-    }, [updateInterval, counter, hideList]);
+    }, [updateInterval]); */         
 
 
 
     const tickerList = useSelector((state) => state.tickerList);
     const { tickers, loading, error } = tickerList;
 
-
-
+   
     const handleHideTicker = (ticker) => {
         const newHideList = new Set([...hideList, ticker]);
         setHideList([...newHideList])
@@ -49,7 +46,7 @@ function HomeScreen() {
 
         <div>
             <StyledHeader>INCODE Finance Controll</StyledHeader>
-            <StyledContainer>
+            {(!loading && !error) ? (<StyledContainer>
                 {
                     tickers.map((ticker, index) => (!hideList.find((el) => el === ticker.ticker)) ? (
 
@@ -58,20 +55,21 @@ function HomeScreen() {
                     )
                 }
 
-            </StyledContainer>
-            <RefreshButton onClick={(e) => { e.preventDefault(); setHideList([]) }}><IoMdSync /></RefreshButton>
-            <form onSubmit={(e) => {
+            </StyledContainer>) : (<h2>Loading...</h2>)}
+
+            <IntervalForm onSubmit={(e) => {
                 e.preventDefault();
-                setUpdateInterval({ updateInterval: +refreshInterval + updateInterval });
-                console.log("updateInterval", updateInterval);
+
+                setUpdateInterval(refreshInterval);
+
             }}>
-                <label htmlFor='interval'>Set new refresh interval: </label>
+                <RefreshButton onClick={(e) => { e.preventDefault(); setHideList([]); }}><IoMdSync /></RefreshButton>
+               <label htmlFor='interval'>Set new refresh interval: </label>
                 <input
                     type="number"
                     value={refreshInterval}
                     onChange={(e) => {
-
-                        setRefreshInterval(Number(e.target.value))
+                        setRefreshInterval(Number(e.target.value));
                     }}
                     name="interval"
                     id="interval"
@@ -79,7 +77,9 @@ function HomeScreen() {
 
                 <button type="submit">Apply
                 </button>
-            </form>
+            </IntervalForm>
+
+            <TickerLineChart ticker={"AAPL"} />
         </div>
 
     )
@@ -94,6 +94,7 @@ const StyledContainer = styled.div`
  justify-content: center;
  padding: 20px 5%;
  flex-wrap: wrap;
+ 
  
  `;
 
@@ -126,11 +127,22 @@ border: none;
 background-color: transparent;
 text-align: right;
 color: darkred;
-font-size: 30px;
+font-size: 25px;
+height: 25px;
+width: 25px;
 &:hover {
     color:red;
 }
 
 `;
 
-//(e, ticker) => handleHideTicker(e, ticker)
+const IntervalForm = styled.form`
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+gap: 10px;
+
+`;
+

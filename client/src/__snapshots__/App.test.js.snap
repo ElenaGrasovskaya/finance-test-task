@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
+<div>
+  <div>
+    <h1
+      class="sc-gKXOVf dZDvWN"
+    >
+      INCODE Finance Controll
+    </h1>
+    <div
+      class="sc-jSMfEi edoOxf"
+    />
+    <form
+      class="sc-jqUVSM jcNDAj"
+    >
+      <button
+        class="sc-papXJ cJebiC"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 512 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M256 93.09V32l-80 81.454 80 81.456v-61.093c65.996 0 120 54.982 120 122.183 0 20.363-5 39.714-14.004 57.016L391 342.547c15.996-25.457 25-54.988 25-86.547 0-89.599-72.002-162.91-160-162.91zm0 285.094c-66.001 0-120-54.988-120-122.184 0-20.363 5-39.709 13.999-57.02L121 169.454C104.999 193.89 96 224.436 96 256c0 89.599 72.002 162.91 160 162.91V480l80-81.453-80-81.457v61.094z"
+          />
+        </svg>
+      </button>
+      <label
+        for="interval"
+      >
+        Set new refresh interval: 
+      </label>
+      <input
+        id="interval"
+        name="interval"
+        type="number"
+        value="5000"
+      />
+      <button
+        type="submit"
+      >
+        Apply
+      </button>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`<TickerDisplay/> renders and matches a snapshot 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ gkYZus"
+  >
+    <div
+      class="sc-eCYdqJ Sqffu"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"
+        />
+      </svg>
+    </div>
+    <div
+      class="sc-dkzDqf gzSwhT"
+    >
+      <div
+        class="sc-gsnTZi jRNdvI"
+      >
+        AAPL
+      </div>
+      <div>
+        279.71
+      </div>
+    </div>
+    <div
+      class="sc-hKMtZM jCLcKn"
+    >
+      <p>
+        65.07
+      </p>
+      <p>
+        0.79
+        %
+      </p>
+    </div>
+  </div>
+</div>
+`;
