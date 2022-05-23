@@ -42,7 +42,7 @@ describe('<HomeScreen/>', () => {
 });
 
 describe('<TickerLineChart/>', () => {
-  it('renders out the button for changing refresh interval', () => {
+  it('renders out the title for the chart', () => {
       const { container , debug } = render(<Provider store={store}><TickerLineChart/></Provider>);
       debug();
       expect(screen.getByText("Ticker price")).toBeInTheDocument();
