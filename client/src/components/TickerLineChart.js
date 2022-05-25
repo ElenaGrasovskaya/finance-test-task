@@ -9,25 +9,16 @@ import {
     ChartTitle,
     ChartLegend,
 } from "@progress/kendo-react-charts";
-import { COLORS } from '../constants/tickerConstants';
+import { COLORS } from '../constants/styleConstants';
 import { listTickers } from '../actions/tickerActions'
 
-import React, { useEffect, useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
 
+const TickerLineChart = (props) => {
 
+  
 
-const TickerLineChart = () => {
-
-    const dispatch = useDispatch();
-
-    useEffect(() => {
-        dispatch(listTickers());
-
-    }, [dispatch]);
-
-    const tickerList = useSelector((state) => state.tickerList);
-    const { tickers, allTickers, loading, error } = tickerList;
+    
+    const { tickers, allTickers, loading, error } = props;
     let printData = [];
 
 
