@@ -1,9 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import TickerDisplay from './components/TickerDisplay';
-import TickerLineChart from './components/TickerLineChart';
+import TickerSingleChart from './components/TickerSingleChart';
 import HomeScreen from './screens/HomeScreen';
 import { fakeTicker } from './testUtils/testUtils';
 import {Provider} from 'react-redux';
+import {displayTickersTemplate} from './constants/tickerConstants';
 import store from './store';
 const tickers = fakeTicker();
 
@@ -41,16 +42,16 @@ describe('<HomeScreen/>', () => {
    
 });
 
-describe('<TickerLineChart/>', () => {
+describe('<TickerSingleChart/>', () => {
   it('renders out the title for the chart', () => {
-      const { container , debug } = render(<Provider store={store}><TickerLineChart/></Provider>);
+      const { container , debug } = render(<Provider store={store}><TickerSingleChart tickers={displayTickersTemplate} allTickers={[displayTickersTemplate, displayTickersTemplate]} selectedTicker = {"AAPL"}/></Provider>);
       debug();
-      expect(screen.getByText("Ticker price")).toBeInTheDocument();
+      expect(screen.getByText("100")).toBeInTheDocument();
       
   });
 
   it('renders and matches a snapshot', () => {
-    const { container , debug } = render(<Provider store={store}><TickerLineChart/></Provider>);
+    const { container , debug } = render(<Provider store={store}><TickerSingleChart tickers={displayTickersTemplate} allTickers={[displayTickersTemplate, displayTickersTemplate]} selectedTicker = {"AAPL"}/></Provider>);
     debug();
     expect(container).toMatchSnapshot();
 

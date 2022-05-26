@@ -7,8 +7,7 @@ export const StyledContainer = styled.div`
  justify-content: center;
  padding: 20px 5%;
  flex-wrap: wrap;
- 
- 
+  
  `;
 
 export const StyledHeader = styled.h1`
@@ -19,6 +18,8 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 export const TickerContainer = styled.a`
 border: 0;
 text-decoration: none;
+display: flex;
+flex-direction: column;
 `;
 
 export const CloseButton = styled.button`
@@ -56,5 +57,14 @@ flex-direction: row;
 justify-content: center;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 gap: 10px;
+
+`;
+
+
+
+export const TickerDisplayButton = styled.button`
+
+border:none;
+background: none;
 
 `;

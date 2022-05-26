@@ -8,7 +8,7 @@ import {
 } from '../constants/tickerConstants'
 import io from "socket.io-client";
 
-export const listTickers = (mount) => async (dispatch) => {
+export const listTickers = (mount) => async (dispatch, state) => {
     try {
 
 
@@ -19,15 +19,24 @@ export const listTickers = (mount) => async (dispatch) => {
             socket.emit('start');
             socket.on('ticker', (response) => {
                 const res = Array.isArray(response) ? response : [response];
-                dispatch({
-                    type: TICKER_LIST_SUCCESS,
-                    payload: res
-                })
+
+                if (res) {
+
+                    dispatch({
+                        type: TICKER_LIST_SUCCESS,
+                        payload: res
+                    })
+
+                    socket.close();
+                }
 
             });
+
         }
         else {
-            dispatch({ type: SOCKET_UNMOUNT })
+            dispatch({
+                type: SOCKET_UNMOUNT
+            })
             socket.close();
         }
 

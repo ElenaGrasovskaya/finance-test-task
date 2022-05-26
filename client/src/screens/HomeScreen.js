@@ -5,59 +5,58 @@ import {
     StyledHeader,
     TickerContainer,
     CloseButton, RefreshButton,
-    IntervalForm
+    IntervalForm,
+    TickerDisplayButton
 } from "../styledComponents/HomeScreenStyles"
 import { listTickers } from '../actions/tickerActions'
 import { IoMdSync } from "react-icons/io";
 import TickerDisplay from '../components/TickerDisplay';
 import { AiFillCloseCircle } from "react-icons/ai";
-import TickerLineChart from '../components/TickerLineChart';
-import TickerCanvasChart from '../components/TickerCanvasChart';
+import { displayTickersTemplate } from '../constants/tickerConstants';
+import TickerSingleChart from "../components/TickerSingleChart";
+
 
 function HomeScreen() {
 
     const [hideList, setHideList] = useState([]);
-    const [refreshInterval, setRefreshInterval] = useState(500)
-    const [updateInterval, setUpdateInterval] = useState(500);
-    const [counter, setCounter] = useState(false);
-
+    const [selectedTicker, setSelectedTicker] = useState("AAPL");
+    const [refreshInterval, setRefreshInterval] = useState(5000)
+    const [updateInterval, setUpdateInterval] = useState(5000);
+    const [displayTickers, setDisplayTickers] = useState([...displayTickersTemplate])
 
     const dispatch = useDispatch();
-
-    useEffect(() => {
-        dispatch(listTickers(true));
-        return () => {
-        dispatch(listTickers(false));
-        }
-
-    }, [])
-
-    dispatch(listTickers(false));
-
     const tickerList = useSelector((state) => state.tickerList);
     const { tickers, loading, error, allTickers } = tickerList;
 
 
+    
     useEffect(() => {
-
+        dispatch(listTickers(true));
+        
         const interval = setInterval(() => {
-            dispatch(listTickers(true));
+      
+            setDisplayTickers(tickers);
+            
         }, updateInterval);
 
         return () => {
-            clearInterval(interval);
             dispatch(listTickers(false));
+            clearInterval(interval);
         }
 
-    }, [updateInterval]);
+    }, [updateInterval, displayTickers, dispatch]);
+
 
     
-
-
 
     const handleHideTicker = (ticker) => {
         const newHideList = new Set([...hideList, ticker]);
         setHideList([...newHideList])
+    }
+
+    const handleSelectTicker = (ticker) => {
+        console.log(ticker);
+        setSelectedTicker(ticker);
     }
 
     return (
@@ -69,11 +68,20 @@ function HomeScreen() {
                     tickers.map((ticker, index) => (!hideList.find((el) => el === ticker.ticker)) ? (
 
                         <TickerContainer key={index + 40}><CloseButton key={index + 10} onClick={(e) => handleHideTicker(ticker.ticker)}><AiFillCloseCircle key={index + 30} /></CloseButton>
-                            <TickerDisplay ticker={ticker} key={index + 20} /></TickerContainer>) : ("")
+                            <TickerDisplayButton onClick={(e)=>{handleSelectTicker(ticker.ticker)}}><TickerDisplay ticker={ticker} key={index + 20} /></TickerDisplayButton></TickerContainer>) : ("")
                     )
                 }
 
-            </StyledContainer>) : (<h2>Loading...</h2>)}
+            </StyledContainer>) : (<StyledContainer>
+                {
+                    displayTickersTemplate.map((ticker, index) => (!hideList.find((el) => el === ticker.ticker)) ? (
+
+                        <TickerContainer key={index + 40}><CloseButton key={index + 10} onClick={(e) => handleHideTicker(ticker.ticker)}><AiFillCloseCircle key={index + 30} /></CloseButton>
+                            <TickerDisplayButton onClick={(e)=>{handleSelectTicker(ticker.ticker)}}><TickerDisplay ticker={ticker} key={index + 20} /></TickerDisplayButton></TickerContainer>) : ("")
+                    )
+                }
+
+            </StyledContainer>)}
 
             <IntervalForm onSubmit={(e) => {
                 e.preventDefault();
@@ -96,10 +104,9 @@ function HomeScreen() {
                 <button type="submit">Apply
                 </button>
             </IntervalForm>
-            
+            <TickerSingleChart tickers={displayTickersTemplate} allTickers={allTickers} selectedTicker = {selectedTicker} />
 
-           
-            
+
         </div>
 
     )
@@ -107,9 +114,10 @@ function HomeScreen() {
 
 export default HomeScreen
 
-/*<TickerCanvasChart />
+/*
+ {(!loading && !error) ? <TickerLineChart tickers={tickers} loading={loading} error={error} allTickers={allTickers} /> : (<h2>Loading...</h2>)}
 
-{(!loading && !error) ? <TickerLineChart tickers={tickers} loading={loading} error={error} allTickers={allTickers} /> : (<h2>Loading...</h2>)}
+
 */
 
 

@@ -4,18 +4,433 @@ exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
 <div>
   <div>
     <h1
-      class="sc-gKXOVf dZDvWN"
+      class="sc-iBkjds kwnmGH"
     >
       INCODE Finance Controll
     </h1>
-    <h2>
-      Loading...
-    </h2>
+    <div
+      class="sc-gKXOVf hFqMMS"
+    >
+      <a
+        class="sc-ftvSup ucEFx"
+      >
+        <button
+          class="sc-papXJ AQpNz"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 0 1-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"
+            />
+          </svg>
+        </button>
+        <button
+          class="sc-iqcoie fOrynN"
+        >
+          <div
+            class="sc-bczRLJ iHkcKO"
+          >
+            <div
+              class="sc-eCYdqJ Sqffu"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"
+                />
+              </svg>
+            </div>
+            <div
+              class="sc-dkzDqf gbGYaZ"
+            >
+              <div
+                class="sc-gsnTZi jRNdvI"
+              >
+                AAPL
+              </div>
+              <div>
+                0
+              </div>
+            </div>
+            <div
+              class="sc-hKMtZM ecPbCx"
+            >
+              <p>
+                0
+              </p>
+              <p>
+                0
+                %
+              </p>
+            </div>
+          </div>
+        </button>
+      </a>
+      <a
+        class="sc-ftvSup ucEFx"
+      >
+        <button
+          class="sc-papXJ AQpNz"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 0 1-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"
+            />
+          </svg>
+        </button>
+        <button
+          class="sc-iqcoie fOrynN"
+        >
+          <div
+            class="sc-bczRLJ iHkcKO"
+          >
+            <div
+              class="sc-eCYdqJ Sqffu"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"
+                />
+              </svg>
+            </div>
+            <div
+              class="sc-dkzDqf gbGYaZ"
+            >
+              <div
+                class="sc-gsnTZi jRNdvI"
+              >
+                GOOGL
+              </div>
+              <div>
+                0
+              </div>
+            </div>
+            <div
+              class="sc-hKMtZM ecPbCx"
+            >
+              <p>
+                0
+              </p>
+              <p>
+                0
+                %
+              </p>
+            </div>
+          </div>
+        </button>
+      </a>
+      <a
+        class="sc-ftvSup ucEFx"
+      >
+        <button
+          class="sc-papXJ AQpNz"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 0 1-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"
+            />
+          </svg>
+        </button>
+        <button
+          class="sc-iqcoie fOrynN"
+        >
+          <div
+            class="sc-bczRLJ iHkcKO"
+          >
+            <div
+              class="sc-eCYdqJ Sqffu"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"
+                />
+              </svg>
+            </div>
+            <div
+              class="sc-dkzDqf gbGYaZ"
+            >
+              <div
+                class="sc-gsnTZi jRNdvI"
+              >
+                MSFT
+              </div>
+              <div>
+                0
+              </div>
+            </div>
+            <div
+              class="sc-hKMtZM ecPbCx"
+            >
+              <p>
+                0
+              </p>
+              <p>
+                0
+                %
+              </p>
+            </div>
+          </div>
+        </button>
+      </a>
+      <a
+        class="sc-ftvSup ucEFx"
+      >
+        <button
+          class="sc-papXJ AQpNz"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 0 1-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"
+            />
+          </svg>
+        </button>
+        <button
+          class="sc-iqcoie fOrynN"
+        >
+          <div
+            class="sc-bczRLJ iHkcKO"
+          >
+            <div
+              class="sc-eCYdqJ Sqffu"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"
+                />
+              </svg>
+            </div>
+            <div
+              class="sc-dkzDqf gbGYaZ"
+            >
+              <div
+                class="sc-gsnTZi jRNdvI"
+              >
+                AMZN
+              </div>
+              <div>
+                0
+              </div>
+            </div>
+            <div
+              class="sc-hKMtZM ecPbCx"
+            >
+              <p>
+                0
+              </p>
+              <p>
+                0
+                %
+              </p>
+            </div>
+          </div>
+        </button>
+      </a>
+      <a
+        class="sc-ftvSup ucEFx"
+      >
+        <button
+          class="sc-papXJ AQpNz"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 0 1-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"
+            />
+          </svg>
+        </button>
+        <button
+          class="sc-iqcoie fOrynN"
+        >
+          <div
+            class="sc-bczRLJ iHkcKO"
+          >
+            <div
+              class="sc-eCYdqJ Sqffu"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"
+                />
+              </svg>
+            </div>
+            <div
+              class="sc-dkzDqf gbGYaZ"
+            >
+              <div
+                class="sc-gsnTZi jRNdvI"
+              >
+                FB
+              </div>
+              <div>
+                0
+              </div>
+            </div>
+            <div
+              class="sc-hKMtZM ecPbCx"
+            >
+              <p>
+                0
+              </p>
+              <p>
+                0
+                %
+              </p>
+            </div>
+          </div>
+        </button>
+      </a>
+      <a
+        class="sc-ftvSup ucEFx"
+      >
+        <button
+          class="sc-papXJ AQpNz"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 0 1-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"
+            />
+          </svg>
+        </button>
+        <button
+          class="sc-iqcoie fOrynN"
+        >
+          <div
+            class="sc-bczRLJ iHkcKO"
+          >
+            <div
+              class="sc-eCYdqJ Sqffu"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"
+                />
+              </svg>
+            </div>
+            <div
+              class="sc-dkzDqf gbGYaZ"
+            >
+              <div
+                class="sc-gsnTZi jRNdvI"
+              >
+                TSLA
+              </div>
+              <div>
+                0
+              </div>
+            </div>
+            <div
+              class="sc-hKMtZM ecPbCx"
+            >
+              <p>
+                0
+              </p>
+              <p>
+                0
+                %
+              </p>
+            </div>
+          </div>
+        </button>
+      </a>
+    </div>
     <form
-      class="sc-jqUVSM jcNDAj"
+      class="sc-kDDrLX dXvoaQ"
     >
       <button
-        class="sc-papXJ cJebiC"
+        class="sc-jqUVSM bbDlRT"
       >
         <svg
           fill="currentColor"
@@ -49,6 +464,419 @@ exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
       </button>
     </form>
     <div
+      class="sc-jSMfEi hMNJVz"
+    >
+      <div
+        class="k-chart k-widget"
+        style="height: 2000px; position: relative;"
+      >
+        <div
+          class="k-chart-surface"
+          style="position: relative;"
+        >
+          <svg
+            style="width: 100%; height: 100%; overflow: hidden;"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <clippath
+                id="kdef7"
+              >
+                <path
+                  d="M24.5 28.5 L 594.5 28.5 594.5 386.5 24.5 386.5Z"
+                  fill="none"
+                  stroke="#000"
+                  stroke-linejoin="miter"
+                />
+              </clippath>
+              <clippath
+                id="kdef8"
+              >
+                <path
+                  d="M0 0 L 0 0 0 400 0 400Z"
+                  fill="none"
+                  stroke="#000"
+                  stroke-linejoin="miter"
+                />
+              </clippath>
+            </defs>
+            <g>
+              <path
+                d="M0 0 L 600 0 600 400 0 400Z"
+                fill="none"
+                stroke="none"
+              />
+              <path
+                d="M24 28 L 594 28 594 386 24 386Z"
+                fill="#fff"
+                fill-opacity="0"
+                stroke="none"
+              />
+              <g>
+                <g>
+                  <path
+                    d="M594.5 28.5 L 594.5 386.5"
+                    fill="none"
+                    stroke="none"
+                  />
+                </g>
+                <g>
+                  <path
+                    d="M24.5 341.5 L 594.5 341.5"
+                    fill="none"
+                    stroke="none"
+                  />
+                  <path
+                    d="M24.5 297.5 L 594.5 297.5"
+                    fill="none"
+                    stroke="none"
+                  />
+                  <path
+                    d="M24.5 252.5 L 594.5 252.5"
+                    fill="none"
+                    stroke="none"
+                  />
+                  <path
+                    d="M24.5 207.5 L 594.5 207.5"
+                    fill="none"
+                    stroke="none"
+                  />
+                  <path
+                    d="M24.5 162.5 L 594.5 162.5"
+                    fill="none"
+                    stroke="none"
+                  />
+                  <path
+                    d="M24.5 118.5 L 594.5 118.5"
+                    fill="none"
+                    stroke="none"
+                  />
+                  <path
+                    d="M24.5 73.5 L 594.5 73.5"
+                    fill="none"
+                    stroke="none"
+                  />
+                  <path
+                    d="M24.5 28.5 L 594.5 28.5"
+                    fill="none"
+                    stroke="none"
+                  />
+                </g>
+                <g>
+                  <g>
+                    <g>
+                      <path
+                        d="M24.5 386.5 L 594.5 386.5"
+                        fill="none"
+                        stroke="none"
+                      />
+                      <path
+                        d="M24.5 386.5 L 24.5 390.5"
+                        fill="none"
+                        stroke="none"
+                      />
+                      <path
+                        d="M594.5 386.5 L 594.5 390.5"
+                        fill="none"
+                        stroke="none"
+                      />
+                    </g>
+                  </g>
+                </g>
+                <g
+                  clip-path="url(#kdef7)"
+                >
+                  <g
+                    clip-path="url(#kdef8)"
+                  />
+                </g>
+                <g>
+                  <g>
+                    <path
+                      d="M24.5 28.5 L 24.5 386.5"
+                      fill="none"
+                      stroke="black"
+                      stroke-width="1"
+                    />
+                    <path
+                      d="M20.5 386.5 L 24.5 386.5"
+                      fill="none"
+                      stroke="black"
+                      stroke-width="1"
+                    />
+                    <path
+                      d="M20.5 341.5 L 24.5 341.5"
+                      fill="none"
+                      stroke="black"
+                      stroke-width="1"
+                    />
+                    <path
+                      d="M20.5 297.5 L 24.5 297.5"
+                      fill="none"
+                      stroke="black"
+                      stroke-width="1"
+                    />
+                    <path
+                      d="M20.5 252.5 L 24.5 252.5"
+                      fill="none"
+                      stroke="black"
+                      stroke-width="1"
+                    />
+                    <path
+                      d="M20.5 207.5 L 24.5 207.5"
+                      fill="none"
+                      stroke="black"
+                      stroke-width="1"
+                    />
+                    <path
+                      d="M20.5 162.5 L 24.5 162.5"
+                      fill="none"
+                      stroke="black"
+                      stroke-width="1"
+                    />
+                    <path
+                      d="M20.5 118.5 L 24.5 118.5"
+                      fill="none"
+                      stroke="black"
+                      stroke-width="1"
+                    />
+                    <path
+                      d="M20.5 73.5 L 24.5 73.5"
+                      fill="none"
+                      stroke="black"
+                      stroke-width="1"
+                    />
+                    <path
+                      d="M20.5 28.5 L 24.5 28.5"
+                      fill="none"
+                      stroke="black"
+                      stroke-width="1"
+                    />
+                  </g>
+                </g>
+                <g>
+                  <text
+                    fill="black"
+                    fill-opacity="1"
+                    stroke="none"
+                    style="font:  ;white-space:pre;"
+                    x="16"
+                    y="387"
+                  >
+                    0
+                  </text>
+                </g>
+                <g>
+                  <text
+                    fill="black"
+                    fill-opacity="1"
+                    stroke="none"
+                    style="font:  ;white-space:pre;"
+                    x="16"
+                    y="342.25"
+                  >
+                    50
+                  </text>
+                </g>
+                <g>
+                  <text
+                    fill="black"
+                    fill-opacity="1"
+                    stroke="none"
+                    style="font:  ;white-space:pre;"
+                    x="16"
+                    y="297.5"
+                  >
+                    100
+                  </text>
+                </g>
+                <g>
+                  <text
+                    fill="black"
+                    fill-opacity="1"
+                    stroke="none"
+                    style="font:  ;white-space:pre;"
+                    x="16"
+                    y="252.75"
+                  >
+                    150
+                  </text>
+                </g>
+                <g>
+                  <text
+                    fill="black"
+                    fill-opacity="1"
+                    stroke="none"
+                    style="font:  ;white-space:pre;"
+                    x="16"
+                    y="208"
+                  >
+                    200
+                  </text>
+                </g>
+                <g>
+                  <text
+                    fill="black"
+                    fill-opacity="1"
+                    stroke="none"
+                    style="font:  ;white-space:pre;"
+                    x="16"
+                    y="163.25"
+                  >
+                    250
+                  </text>
+                </g>
+                <g>
+                  <text
+                    fill="black"
+                    fill-opacity="1"
+                    stroke="none"
+                    style="font:  ;white-space:pre;"
+                    x="16"
+                    y="118.5"
+                  >
+                    300
+                  </text>
+                </g>
+                <g>
+                  <text
+                    fill="black"
+                    fill-opacity="1"
+                    stroke="none"
+                    style="font:  ;white-space:pre;"
+                    x="16"
+                    y="73.75"
+                  >
+                    350
+                  </text>
+                </g>
+                <g>
+                  <text
+                    fill="black"
+                    fill-opacity="1"
+                    stroke="none"
+                    style="font:  ;white-space:pre;"
+                    x="16"
+                    y="29"
+                  >
+                    400
+                  </text>
+                </g>
+                <g
+                  transform="matrix(0,-1,1,0,-202.5,217.5)"
+                >
+                  <text
+                    fill="black"
+                    fill-opacity="1"
+                    stroke="none"
+                    style="font:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;white-space:pre;"
+                    x="10"
+                    y="208.5"
+                  >
+                    AAPL
+                  </text>
+                </g>
+              </g>
+              <g />
+              <g>
+                <g>
+                  <g
+                    transform="matrix(1,0,0,1,289.5,15)"
+                  >
+                    <path
+                      d="M0 0 L 15 0 15 3 0 3Z"
+                      fill="#059669"
+                      stroke="#059669"
+                      stroke-width="0"
+                    />
+                    <g>
+                      <text
+                        fill="none"
+                        stroke="none"
+                        style="font:  ;white-space:pre;"
+                        x="21"
+                        y="2.5"
+                      >
+                        AAPL
+                      </text>
+                    </g>
+                    <path
+                      d="M0 0 L 21 0 21 3 0 3Z"
+                      fill="#fff"
+                      fill-opacity="0"
+                      stroke="none"
+                      style="cursor:pointer;"
+                    />
+                  </g>
+                </g>
+              </g>
+              <g />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TickerDisplay/> renders and matches a snapshot 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ iHkcKO"
+  >
+    <div
+      class="sc-eCYdqJ Sqffu"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"
+        />
+      </svg>
+    </div>
+    <div
+      class="sc-dkzDqf gbGYaZ"
+    >
+      <div
+        class="sc-gsnTZi jRNdvI"
+      >
+        AAPL
+      </div>
+      <div>
+        279.71
+      </div>
+    </div>
+    <div
+      class="sc-hKMtZM ecPbCx"
+    >
+      <p>
+        65.07
+      </p>
+      <p>
+        0.79
+        %
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TickerSingleChart/> renders and matches a snapshot 1`] = `
+<div>
+  <div
+    class="sc-jSMfEi hMNJVz"
+  >
+    <div
       class="k-chart k-widget"
       style="height: 2000px; position: relative;"
     >
@@ -62,7 +890,28 @@ exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
         >
-          <defs />
+          <defs>
+            <clippath
+              id="kdef11"
+            >
+              <path
+                d="M24.5 28.5 L 594.5 28.5 594.5 386.5 24.5 386.5Z"
+                fill="none"
+                stroke="#000"
+                stroke-linejoin="miter"
+              />
+            </clippath>
+            <clippath
+              id="kdef12"
+            >
+              <path
+                d="M0 0 L 0 0 0 400 0 400Z"
+                fill="none"
+                stroke="#000"
+                stroke-linejoin="miter"
+              />
+            </clippath>
+          </defs>
           <g>
             <path
               d="M0 0 L 600 0 600 400 0 400Z"
@@ -70,36 +919,62 @@ exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
               stroke="none"
             />
             <path
-              d="M24 5 L 594 5 594 386 24 386Z"
+              d="M24 28 L 594 28 594 386 24 386Z"
               fill="#fff"
               fill-opacity="0"
               stroke="none"
             />
             <g>
-              <g />
               <g>
                 <path
-                  d="M24.5 310.5 L 594.5 310.5"
+                  d="M309.5 28.5 L 309.5 386.5"
                   fill="none"
                   stroke="none"
                 />
                 <path
-                  d="M24.5 234.5 L 594.5 234.5"
+                  d="M594.5 28.5 L 594.5 386.5"
+                  fill="none"
+                  stroke="none"
+                />
+              </g>
+              <g>
+                <path
+                  d="M24.5 341.5 L 594.5 341.5"
                   fill="none"
                   stroke="none"
                 />
                 <path
-                  d="M24.5 157.5 L 594.5 157.5"
+                  d="M24.5 297.5 L 594.5 297.5"
                   fill="none"
                   stroke="none"
                 />
                 <path
-                  d="M24.5 81.5 L 594.5 81.5"
+                  d="M24.5 252.5 L 594.5 252.5"
                   fill="none"
                   stroke="none"
                 />
                 <path
-                  d="M24.5 5.5 L 594.5 5.5"
+                  d="M24.5 207.5 L 594.5 207.5"
+                  fill="none"
+                  stroke="none"
+                />
+                <path
+                  d="M24.5 162.5 L 594.5 162.5"
+                  fill="none"
+                  stroke="none"
+                />
+                <path
+                  d="M24.5 118.5 L 594.5 118.5"
+                  fill="none"
+                  stroke="none"
+                />
+                <path
+                  d="M24.5 73.5 L 594.5 73.5"
+                  fill="none"
+                  stroke="none"
+                />
+                <path
+                  d="M24.5 28.5 L 594.5 28.5"
                   fill="none"
                   stroke="none"
                 />
@@ -117,13 +992,57 @@ exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
                       fill="none"
                       stroke="none"
                     />
+                    <path
+                      d="M309.5 386.5 L 309.5 390.5"
+                      fill="none"
+                      stroke="none"
+                    />
+                    <path
+                      d="M594.5 386.5 L 594.5 390.5"
+                      fill="none"
+                      stroke="none"
+                    />
                   </g>
+                </g>
+              </g>
+              <g
+                clip-path="url(#kdef11)"
+              >
+                <g
+                  clip-path="url(#kdef12)"
+                >
+                  <path
+                    d="M166.5 386 L 451.5 386"
+                    fill="none"
+                    stroke="#059669"
+                    stroke-width="2"
+                  />
+                  <circle
+                    cx="166.5"
+                    cy="386"
+                    fill="#fff"
+                    fill-opacity="1"
+                    r="4"
+                    stroke="#059669"
+                    stroke-opacity="1"
+                    stroke-width="2"
+                  />
+                  <circle
+                    cx="451.5"
+                    cy="386"
+                    fill="#fff"
+                    fill-opacity="1"
+                    r="4"
+                    stroke="#059669"
+                    stroke-opacity="1"
+                    stroke-width="2"
+                  />
                 </g>
               </g>
               <g>
                 <g>
                   <path
-                    d="M24.5 5.5 L 24.5 386.5"
+                    d="M24.5 28.5 L 24.5 386.5"
                     fill="none"
                     stroke="black"
                     stroke-width="1"
@@ -135,31 +1054,49 @@ exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
                     stroke-width="1"
                   />
                   <path
-                    d="M20.5 310.5 L 24.5 310.5"
+                    d="M20.5 341.5 L 24.5 341.5"
                     fill="none"
                     stroke="black"
                     stroke-width="1"
                   />
                   <path
-                    d="M20.5 234.5 L 24.5 234.5"
+                    d="M20.5 297.5 L 24.5 297.5"
                     fill="none"
                     stroke="black"
                     stroke-width="1"
                   />
                   <path
-                    d="M20.5 157.5 L 24.5 157.5"
+                    d="M20.5 252.5 L 24.5 252.5"
                     fill="none"
                     stroke="black"
                     stroke-width="1"
                   />
                   <path
-                    d="M20.5 81.5 L 24.5 81.5"
+                    d="M20.5 207.5 L 24.5 207.5"
                     fill="none"
                     stroke="black"
                     stroke-width="1"
                   />
                   <path
-                    d="M20.5 5.5 L 24.5 5.5"
+                    d="M20.5 162.5 L 24.5 162.5"
+                    fill="none"
+                    stroke="black"
+                    stroke-width="1"
+                  />
+                  <path
+                    d="M20.5 118.5 L 24.5 118.5"
+                    fill="none"
+                    stroke="black"
+                    stroke-width="1"
+                  />
+                  <path
+                    d="M20.5 73.5 L 24.5 73.5"
+                    fill="none"
+                    stroke="black"
+                    stroke-width="1"
+                  />
+                  <path
+                    d="M20.5 28.5 L 24.5 28.5"
                     fill="none"
                     stroke="black"
                     stroke-width="1"
@@ -185,7 +1122,19 @@ exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
                   stroke="none"
                   style="font:  ;white-space:pre;"
                   x="16"
-                  y="310.8"
+                  y="342.25"
+                >
+                  50
+                </text>
+              </g>
+              <g>
+                <text
+                  fill="black"
+                  fill-opacity="1"
+                  stroke="none"
+                  style="font:  ;white-space:pre;"
+                  x="16"
+                  y="297.5"
                 >
                   100
                 </text>
@@ -197,7 +1146,19 @@ exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
                   stroke="none"
                   style="font:  ;white-space:pre;"
                   x="16"
-                  y="234.6"
+                  y="252.75"
+                >
+                  150
+                </text>
+              </g>
+              <g>
+                <text
+                  fill="black"
+                  fill-opacity="1"
+                  stroke="none"
+                  style="font:  ;white-space:pre;"
+                  x="16"
+                  y="208"
                 >
                   200
                 </text>
@@ -209,7 +1170,19 @@ exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
                   stroke="none"
                   style="font:  ;white-space:pre;"
                   x="16"
-                  y="158.4"
+                  y="163.25"
+                >
+                  250
+                </text>
+              </g>
+              <g>
+                <text
+                  fill="black"
+                  fill-opacity="1"
+                  stroke="none"
+                  style="font:  ;white-space:pre;"
+                  x="16"
+                  y="118.5"
                 >
                   300
                 </text>
@@ -221,9 +1194,9 @@ exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
                   stroke="none"
                   style="font:  ;white-space:pre;"
                   x="16"
-                  y="82.2"
+                  y="73.75"
                 >
-                  400
+                  350
                 </text>
               </g>
               <g>
@@ -233,294 +1206,63 @@ exports[`<HomeScreen/> renders and matches a snapshot 1`] = `
                   stroke="none"
                   style="font:  ;white-space:pre;"
                   x="16"
-                  y="6"
+                  y="29"
                 >
-                  500
+                  400
                 </text>
               </g>
               <g
-                transform="matrix(0,-1,1,0,-191,206)"
+                transform="matrix(0,-1,1,0,-202.5,217.5)"
               >
                 <text
                   fill="black"
                   fill-opacity="1"
                   stroke="none"
-                  style="font:  ;white-space:pre;"
+                  style="font:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;white-space:pre;"
                   x="10"
-                  y="197"
+                  y="208.5"
                 >
-                  Ticker price
+                  AAPL
                 </text>
+              </g>
+            </g>
+            <g />
+            <g>
+              <g>
+                <g
+                  transform="matrix(1,0,0,1,289.5,15)"
+                >
+                  <path
+                    d="M0 0 L 15 0 15 3 0 3Z"
+                    fill="#059669"
+                    stroke="#059669"
+                    stroke-width="0"
+                  />
+                  <g>
+                    <text
+                      fill="none"
+                      stroke="none"
+                      style="font:  ;white-space:pre;"
+                      x="21"
+                      y="2.5"
+                    >
+                      AAPL
+                    </text>
+                  </g>
+                  <path
+                    d="M0 0 L 21 0 21 3 0 3Z"
+                    fill="#fff"
+                    fill-opacity="0"
+                    stroke="none"
+                    style="cursor:pointer;"
+                  />
+                </g>
               </g>
             </g>
             <g />
           </g>
         </svg>
       </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<TickerDisplay/> renders and matches a snapshot 1`] = `
-<div>
-  <div
-    class="sc-bczRLJ gkYZus"
-  >
-    <div
-      class="sc-eCYdqJ Sqffu"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        stroke="currentColor"
-        stroke-width="0"
-        viewBox="0 0 16 16"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"
-        />
-      </svg>
-    </div>
-    <div
-      class="sc-dkzDqf gzSwhT"
-    >
-      <div
-        class="sc-gsnTZi jRNdvI"
-      >
-        AAPL
-      </div>
-      <div>
-        279.71
-      </div>
-    </div>
-    <div
-      class="sc-hKMtZM jCLcKn"
-    >
-      <p>
-        65.07
-      </p>
-      <p>
-        0.79
-        %
-      </p>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<TickerLineChart/> renders and matches a snapshot 1`] = `
-<div>
-  <div
-    class="k-chart k-widget"
-    style="height: 2000px; position: relative;"
-  >
-    <div
-      class="k-chart-surface"
-      style="position: relative;"
-    >
-      <svg
-        style="width: 100%; height: 100%; overflow: hidden;"
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-      >
-        <defs />
-        <g>
-          <path
-            d="M0 0 L 600 0 600 400 0 400Z"
-            fill="none"
-            stroke="none"
-          />
-          <path
-            d="M24 5 L 594 5 594 386 24 386Z"
-            fill="#fff"
-            fill-opacity="0"
-            stroke="none"
-          />
-          <g>
-            <g />
-            <g>
-              <path
-                d="M24.5 310.5 L 594.5 310.5"
-                fill="none"
-                stroke="none"
-              />
-              <path
-                d="M24.5 234.5 L 594.5 234.5"
-                fill="none"
-                stroke="none"
-              />
-              <path
-                d="M24.5 157.5 L 594.5 157.5"
-                fill="none"
-                stroke="none"
-              />
-              <path
-                d="M24.5 81.5 L 594.5 81.5"
-                fill="none"
-                stroke="none"
-              />
-              <path
-                d="M24.5 5.5 L 594.5 5.5"
-                fill="none"
-                stroke="none"
-              />
-            </g>
-            <g>
-              <g>
-                <g>
-                  <path
-                    d="M24.5 386.5 L 594.5 386.5"
-                    fill="none"
-                    stroke="none"
-                  />
-                  <path
-                    d="M24.5 386.5 L 24.5 390.5"
-                    fill="none"
-                    stroke="none"
-                  />
-                </g>
-              </g>
-            </g>
-            <g>
-              <g>
-                <path
-                  d="M24.5 5.5 L 24.5 386.5"
-                  fill="none"
-                  stroke="black"
-                  stroke-width="1"
-                />
-                <path
-                  d="M20.5 386.5 L 24.5 386.5"
-                  fill="none"
-                  stroke="black"
-                  stroke-width="1"
-                />
-                <path
-                  d="M20.5 310.5 L 24.5 310.5"
-                  fill="none"
-                  stroke="black"
-                  stroke-width="1"
-                />
-                <path
-                  d="M20.5 234.5 L 24.5 234.5"
-                  fill="none"
-                  stroke="black"
-                  stroke-width="1"
-                />
-                <path
-                  d="M20.5 157.5 L 24.5 157.5"
-                  fill="none"
-                  stroke="black"
-                  stroke-width="1"
-                />
-                <path
-                  d="M20.5 81.5 L 24.5 81.5"
-                  fill="none"
-                  stroke="black"
-                  stroke-width="1"
-                />
-                <path
-                  d="M20.5 5.5 L 24.5 5.5"
-                  fill="none"
-                  stroke="black"
-                  stroke-width="1"
-                />
-              </g>
-            </g>
-            <g>
-              <text
-                fill="black"
-                fill-opacity="1"
-                stroke="none"
-                style="font:  ;white-space:pre;"
-                x="16"
-                y="387"
-              >
-                0
-              </text>
-            </g>
-            <g>
-              <text
-                fill="black"
-                fill-opacity="1"
-                stroke="none"
-                style="font:  ;white-space:pre;"
-                x="16"
-                y="310.8"
-              >
-                100
-              </text>
-            </g>
-            <g>
-              <text
-                fill="black"
-                fill-opacity="1"
-                stroke="none"
-                style="font:  ;white-space:pre;"
-                x="16"
-                y="234.6"
-              >
-                200
-              </text>
-            </g>
-            <g>
-              <text
-                fill="black"
-                fill-opacity="1"
-                stroke="none"
-                style="font:  ;white-space:pre;"
-                x="16"
-                y="158.4"
-              >
-                300
-              </text>
-            </g>
-            <g>
-              <text
-                fill="black"
-                fill-opacity="1"
-                stroke="none"
-                style="font:  ;white-space:pre;"
-                x="16"
-                y="82.2"
-              >
-                400
-              </text>
-            </g>
-            <g>
-              <text
-                fill="black"
-                fill-opacity="1"
-                stroke="none"
-                style="font:  ;white-space:pre;"
-                x="16"
-                y="6"
-              >
-                500
-              </text>
-            </g>
-            <g
-              transform="matrix(0,-1,1,0,-191,206)"
-            >
-              <text
-                fill="black"
-                fill-opacity="1"
-                stroke="none"
-                style="font:  ;white-space:pre;"
-                x="10"
-                y="197"
-              >
-                Ticker price
-              </text>
-            </g>
-          </g>
-          <g />
-        </g>
-      </svg>
     </div>
   </div>
 </div>

@@ -10,6 +10,7 @@ export const TickerContainer = styled.div`
   border: 1px solid lightgrey;
   grid-template-columns: 1fr 1fr 1fr;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
  `;
 
 export const TickerName = styled.div`
@@ -21,6 +22,7 @@ export const StyledBlock = styled.div`
 display: flex;
 flex-direction: column;
 gap: 5px;
+
 
 `;
 
@@ -43,3 +45,4 @@ justify-content:center;
 padding: 5px;
 
 `;
+
