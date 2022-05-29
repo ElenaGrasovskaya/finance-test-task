@@ -22,32 +22,26 @@ function HomeScreen() {
     const [selectedTicker, setSelectedTicker] = useState("AAPL");
     const [refreshInterval, setRefreshInterval] = useState(5000)
     const [updateInterval, setUpdateInterval] = useState(5000);
-    const [displayTickers, setDisplayTickers] = useState([...displayTickersTemplate])
+    //const [displayTickers, setDisplayTickers] = useState([...displayTickersTemplate])
 
     const dispatch = useDispatch();
     const tickerList = useSelector((state) => state.tickerList);
     const { tickers, loading, error, allTickers } = tickerList;
+    const CONNECT = true;
+    const DISCONNECT = false;
 
 
     
     useEffect(() => {
-        dispatch(listTickers(true));
+        dispatch(listTickers(CONNECT, updateInterval));
         
-        const interval = setInterval(() => {
-      
-            setDisplayTickers(tickers);
-            
-        }, updateInterval);
-
         return () => {
-            dispatch(listTickers(false));
-            clearInterval(interval);
-        }
+            dispatch(listTickers(DISCONNECT, updateInterval));
+            }
 
-    }, [updateInterval, displayTickers, dispatch]);
+    }, [updateInterval]);
 
 
-    
 
     const handleHideTicker = (ticker) => {
         const newHideList = new Set([...hideList, ticker]);
@@ -55,7 +49,6 @@ function HomeScreen() {
     }
 
     const handleSelectTicker = (ticker) => {
-        console.log(ticker);
         setSelectedTicker(ticker);
     }
 
@@ -114,10 +107,5 @@ function HomeScreen() {
 
 export default HomeScreen
 
-/*
- {(!loading && !error) ? <TickerLineChart tickers={tickers} loading={loading} error={error} allTickers={allTickers} /> : (<h2>Loading...</h2>)}
-
-
-*/
 
 
