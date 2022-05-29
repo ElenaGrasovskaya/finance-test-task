@@ -6,6 +6,7 @@ const cors = require('cors');
 
 const FETCH_INTERVAL = 5000;
 const PORT = process.env.PORT || 4000;
+let timer;
 
 const tickers = [
   'AAPL', // Apple
@@ -42,16 +43,17 @@ function getQuotes(socket) {
   socket.emit('ticker', quotes);
 }
 
-function trackTickers(socket) {
+function trackTickers(socket, interval) {
   // run the first time immediately
   getQuotes(socket);
 
   // every N seconds
-  const timer = setInterval(function() {
+  timer = setInterval(function() {
     getQuotes(socket);
-  }, FETCH_INTERVAL);
+  }, interval);
 
   socket.on('disconnect', function() {
+    console.log("Disconnected", interval);
     clearInterval(timer);
   });
 }
@@ -71,8 +73,16 @@ app.get('/', function(req, res) {
 });
 
 socketServer.on('connection', (socket) => {
-  socket.on('start', () => {
-    trackTickers(socket);
+  socket.on('start', (interval) => {
+    console.log("Server started with interval", interval)
+
+    trackTickers(socket, interval);
+  });
+
+  socket.on('unmount', (interval) => {
+    console.log("Server unmount", interval)
+    clearInterval(timer);
+ 
   });
 });
 
